@@ -1,0 +1,54 @@
+Object-oriented language characteristics classes and object access attributes.
+
+structured programming
+-구조적 프로그래밍
+
+objects are Instances of classes
+-클래스로부터 인스턴스를 만듦
+1).Encapsulation
+2).Inheritance
+3).Polymorphism
+객체지향(object oriented)
+-문제의 모든 초점을 실세계에 존재하는 객체를 중심으로 생각
+
+객체지향 기본개념
+-inline 함수
+-클래스의 생성자(constructor)와 소멸자(destructor)
+-함수 중첩(function overloading)
+-디폴트 인자(default parameter)
+-클래스 상속
+-가상함수(virtual function)
+
+클래스->객체=인스턴스
+-클래스로부터 만들어진 객체를 인스턴스라고 함
+class= int
+instance =int ~~
+
+ADT:추상 자료형
+-클래스로 추상 자료형을 지원
+-캡슐화(encapsulation)
+-캡슐 정보는 외부에 은닉(hidden)됨 외부에서 접근불가
+-자료에 대한 수정/참조는 객체 내에서 이루어짐
+
+상속(inheritance)
+-파생 클래스가 기본 클래스의 정의된 속성(자료 및 연산)을 상속받는 것
+-기존 프로그램을 재사용하기 수월
+-child class<-->parent class
+-자료형의 계층화
+
+다형성(polymorphism)
+-함수 중첩or연산자 중첩을 여러 목적으로 사용
+-overloading
+
+class Human {
+	private:
+		int age;
+	public:
+		int getAge();
+	};
+	Human human1;
+  
+Sources_
+Professor Han Seonghyeon
+kor-Induk University.
+
